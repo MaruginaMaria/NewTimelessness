@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lager"/>
+
+ <LinearLayout
+     android:id="@+id/txtWindow"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_gravity="bottom"
+     android:orientation="vertical">
+
+
+  <Button
+      android:id="@+id/startButton"
+      android:layout_width="wrap_content"
+      android:layout_height="62dp"
+      android:text="новая игра"
+      android:layout_gravity="center"
+      android:visibility="visible" />
+
+  <Button
+      android:id="@+id/memoryButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="продолжить"
+      android:visibility="visible" />
+  <Button
+      android:id="@+id/settingsButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="настройки"
+      android:visibility="visible" />
+
+ </LinearLayout>
+
+</FrameLayout>
